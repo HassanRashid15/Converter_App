@@ -12,13 +12,13 @@ type SiteConfig = {
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL!;
 
 export const siteConfig: SiteConfig = {
-  name: "Next Level UI",
+  name: "ToolNest",
   description:
-    "Blazing-fast, interactive app built with latest web tech (Next.js 14). Modern design (Shadcn, Tailwind CSS). Open-source & yours to explore!",
+    "Convert, Create, Compress — Smarter Tools for Everyday Use. Free online converters for audio, images, PDFs, and text. All-in-one platform for your digital needs.",
   url: baseUrl,
   ogImage: `${baseUrl}/open-graph.png`,
   links: {
-    twitter: "https://twitter.com/AdhithyaSarath",
-    github: "https://github.com/SarathAdhi",
+    twitter: "https://twitter.com/ToolNest",
+    github: "https://github.com/ToolNest",
   },
 };
